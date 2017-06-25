@@ -1,3 +1,55 @@
+/* JS Basics - The Mad Libs Challenge Revisited */
+
+//I updated story.js to now have a counter, but this can be done more efficiently with functions and loops later.
+
+
+/* JS Basics - Numbers and Strings
+
+//Adding numbers together that are strings the numbers will be concatinated rather then added ie input1 = 1 and input2 = 2 the total woul be 12  unless the string is converted
+var HTMLBadges = prompt('How many HTML Badges do you have?');
+var CSSBadges = prompt('How many CSS BAdges do you have?');
+var totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
+alert('Wow! You have ' + totalBadges + ' badges!');
+
+// parseInt() - this is used to convert strings to ints 1, 2 ...
+// parseInt() will also cut off the decimal places
+// parseFloat() - this is used to convert strings to floats 3.14
+// NaN in console means Not a Number
+// can be used with numbers in strings if the number is first in the string
+*/
+
+
+/* JS Basics - Numbers
+
+//score = score + 10; same as score += 10;
+
+//score = score - 20; same as score -= 20;
+
+//score = score * 5; same as score *= 5;
+
+//score = score / 2; same as score /= 2;
+
+// App that calculates number of seconds in a day and seconds a person has been alive
+
+var secondsPerMin = 60;
+var minutesPerHour = 60;
+var hoursPerDay = 24;
+var daysPerWeek = 7;
+var weeksPerYear = 52;
+var secondsPerDay = secondsPerMin * minutesPerHour * hoursPerDay;
+document.write('There are ' + secondsPerDay + ' seconds in a day.');
+var yearsAlive = prompt('What\'s your age?');
+var secondsAlive = yearsAlive * weeksPerYear * daysPerWeek * secondsPerDay
+document.write(' You\'ve been alive for ' + secondsAlive + ' seconds!');
+*/
+
+
+/* JS - Basics - Numbers
+
+// numbers in quotes are strings not numbers
+// JS can use ints, floats, and scientific notation
+// when using numbers they should not be in quotes or have commas
+
 /* JS Basics - The Variable Callenge*/
 
 // Story Maker app
