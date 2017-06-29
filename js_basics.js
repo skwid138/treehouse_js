@@ -1,3 +1,26 @@
+/* The Random Challenege */
+
+
+/*Create a random number
+
+// Math.random()
+// Math.floor rounds numbers down to the nearest int
+// Math.ceil rounds numbers up to the nearest int
+
+//to simulate a roll of a 6 sided die
+// Math.floor( Math.random() * 6) + 1
+// Math.ceil has a slight chance of generating 0 so floor is used
+
+var dieRoll = Math.floor(Math.random() * 6) +1
+alert ('You rolled a ' + dieRoll + '!')
+*/
+
+
+/* Math Object
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+*/
+
+
 /* JS Basics - The Mad Libs Challenge Revisited */
 
 //I updated story.js to now have a counter, but this can be done more efficiently with functions and loops later.
