@@ -1,3 +1,4 @@
+alert('The following prompts will ask for two numbers one low and one high. It will then generate a random number within that range.')
 var random1 = prompt ("Please enter the lower of two numbers.");
 var random2 = prompt ("Please enter the higher of two numbers.");
 random1 = parseInt(random1);
