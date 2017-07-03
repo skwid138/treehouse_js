@@ -1,3 +1,76 @@
+/*Improving the Random Number Guessing Game*/
+
+
+
+
+/*Programming Multiple Outcomes
+
+if () {
+
+} else if () {
+// else if will only be ran if the first condition is false
+
+} else {
+
+}
+
+// there is no limit to how many else if conditions you can have
+// the last statment should be an else and will only run if all if and else if conditions are false
+*/
+
+
+
+/*Boolean Values
+
+if ( true ) {
+  document.write('The condition is true.');
+} else {
+  document.write('The condition is false.');
+}
+
+var correctGuess = false;
+var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+var guess = prmpt('I am thinking of a number between 1 and 6. What is it?');
+if (parseInt(guess) === randomNumber ) {
+ correctGuess = true;
+}
+if ( correctGuess ) {
+  document.write('<p>You quessed the number!</p>);
+} else {
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+}
+*/
+
+
+/*Build a Random Number Guessing Game
+var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+var guess = prmpt('I am thinking of a number between 1 and 6. What is it?');
+if (parseInt(guess) === randomNumber ) {
+ document.write('<p>You guessed the number!</p>);
+} else {
+  document.write('<p>Sorry. The number was ' +randomNumber + '</p>');
+}
+*/
+
+
+/*Introducing Conditional Statements
+
+var answer = prompt('What programming language is the name of a gem?');
+if ( answer.toUpperCase() === 'RUBY' ) {
+  document.write("<p>That's right!</p>");
+} else {
+  document.write("<p>Sorry, that's wrong.</p>");
+}
+
+// example if (condition) {code to run if the condition is true}
+// condition can be true or false
+//inside brackets "code block" is code that runs only if the condition is true "code block"
+// no semi collon
+// === means the input must be indenticle
+// no semi collon after an else statement either
+*/
+
+
 /* The Random Challenege
 - create random number generator
 - colect a number from a user - prompt() and parseInt()
