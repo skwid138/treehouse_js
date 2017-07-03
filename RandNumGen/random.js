@@ -4,7 +4,7 @@ var random2 = prompt ("Please enter the higher of two numbers.");
 random1 = parseInt(random1);
 random2 = parseInt(random2);
 console.log("Here's the user's input", random1, random2);
-var difference = Math.floor(random2 - random1);
+var difference = Math.floor(random2 - random1 + 1);
 console.log('Difference = ', difference);
 var result = Math.floor(Math.random() * difference) + random1;
 /*
