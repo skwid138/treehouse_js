@@ -1,4 +1,11 @@
-/* The Random Challenege */
+/* The Random Challenege
+- create random number generator
+- colect a number from a user - prompt() and parseInt()
+- print a random number from 1 - the users entered number - Math.random()
+
+
+- create a program that accepts 2 numbers and generates a random number between them
+*/
 
 
 /*Create a random number
