@@ -1,6 +1,30 @@
-/*Improving the Random Number Guessing Game*/
+/**/
 
 
+/*Improving the Random Number Guessing Game
+
+var correctGuess = false;
+var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
+if (parseInt(guess) === randomNumber ) {
+ correctGuess = true;
+} else if ( parseInt(guess) < randomNumber ) {
+  var guessMore = prompt(guess + ' is too low, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
+} else if (parseInt(guess) > randomNumber ) {
+  var guessLess = prompt(guess + ' is too high, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
+}
+if ( correctGuess ) {
+  document.write('<p>You quessed the number!</p>');
+} else {
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+}
+*/
 
 
 /*Programming Multiple Outcomes
