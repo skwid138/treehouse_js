@@ -11,7 +11,7 @@ alert ( 'The following is a 5 question multiple choice quiz. After the questions
 // var answer1 = 'C';
 var input1 = prompt( 'What is the lightest element on the Periodic Table of Elements?\nA) Helium\nB) Oxygen\nC) Hydrogen' );
 // var answer2 = 'B';
-var input2 = prompt( "What is the earth's core made of?\nA) Lead and Steal\nB) Iron and Nickle\nC) Titanium" );
+var input2 = prompt( "What is the earth's core made of?\nA) Lead and Steel\nB) Iron and Nickle\nC) Titanium" );
 // var answer3 = 'B';
 var input3 = prompt( "What is the process of a solid turning directly into a gas?\nA) Adhesion\nB) Sublimation\nC) Ionization" );
 // var answer4 = 'A';
