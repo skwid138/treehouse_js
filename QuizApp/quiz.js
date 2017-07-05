@@ -32,13 +32,13 @@ if ( input1 === 'c' || input1 === 'C' ) {
 }
 if ( input2 === 'b' || input2 === 'B') {
   score += 1;
-  var question2 = 'Correct! The Earth\'s core is made of an Iron and Nickle Alloy.';
+  var question2 = 'Correct! The Earth\'s core is made of an Iron and Nickle alloy.';
 } else {
   var question2 = 'Nice Try! Earth\'s core is an Iron and Nickle alloy.';
 }
 if ( input3 === 'b' || input3 === 'B') {
   score += 1;
-  var question3 = 'Correct! Sublimation is the process of a solid skipping it\'s liquid state and turning directly into a gas';
+  var question3 = 'Correct! Sublimation is the process of a solid skipping it\'s liquid state and turning directly into a gas.';
 } else {
   var question3 = 'Nice Try! Sublimation is the process of a solid skipping it\'s liquid state and turning directly into a gas.';
 }
