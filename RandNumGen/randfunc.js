@@ -5,10 +5,8 @@ calculate a random number within the range between them
 output the number to the user
 */
 
-//
 function randNum (lowNum, highNum) {
-  var difference = Math.floor(highNum - lowNum + 1);
-  return Math.floor(Math.random() * difference) + lowNum;
+  return Math.floor(Math.random() * (highNum - lowNum + 1) + lowNum;
 }
 
 alert('The following prompts will ask for two numbers then generate a random number within that range.')
