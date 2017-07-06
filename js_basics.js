@@ -1,4 +1,78 @@
-/*Getting Information From a Function*?
+/*Random Number Challenge*/
+
+// change the random number program so it can
+// accept two values
+// 1 lower and 1 upper value
+// display using alert, document.write, or console.log
+
+
+/*Variable Scope*/
+
+// variables in a function can have the same name as variables outside the function
+// varIblkes contained in a function are exclusive to that function
+//variables contained outside the function are global
+// it is generally a bad idea to use global variables in a function
+// using the var keyword in a function will ensure no global variables are being accessed
+// if  function is called after a global variable and it does not use the var keyword it can overwrite the value of the variable
+
+
+/*Giving Information to Functions
+
+// to give info to a function add a parameter inside the functions ()
+// naming a parameter has the same rules as naming a function
+
+function getRandomNumber( upper ) {
+  var randomNumber = Math.floor( Math.random() * upper) +1;
+  return randomNumber;
+}
+
+console.log( getRandomNumber(6) );
+console.log( getRandomNumber(138) );
+console.log( getRandomNumber(1138) );
+
+
+function getArea(width, length, unit) {
+ var area = width * length;
+ return area + " " + unit;
+}
+console.log(getArea(10, 20, 'sq ft'));
+
+//this passes the value of upper into the function
+// then the function value is passed into console log
+
+// functions can have multiple parameters separated by a comma
+// when calling the function use a comma to separate the arguments
+*/
+
+
+/*Getting Information From a Function
+
+function getRandomNumber() {
+  var randomNumber = Math.floor( Math.random() * 6) +1;
+  return randomNumber;
+}
+getRandomNumber();getRandomNumber
+
+
+// example of how to use return below
+function isEmailEmpty () {
+ var field = document.getElemebtByID('email');
+ if (field.value === '') {
+  return true;
+ } else {
+   return false;
+ }
+}
+
+var fieldTest = isEmailEmpty();
+if (fieldTest === true) {
+ alert('Please provide your email address.');
+}
+
+//return can only return a single value and if it is used in the middle of a funtion the code below it will not be run when the function is called
+*/
+
+//return is versatile as it can be used with many funtions and is very common
 
 
 /*Functions Change the Flow of a Program*/
