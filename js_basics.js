@@ -1,4 +1,123 @@
-/**/
+/*Getting Information From a Function*?
+
+
+/*Functions Change the Flow of a Program*/
+
+// it's common to have functions call other functions which is
+// why it's a good idea to keep them at the top of your code
+
+
+/*Introducing Functions
+
+function funcName( ) {
+
+}
+
+//Function names can only be letters, numbers, _, and $
+// they cannot start with numbers
+// they cannot include spaces or other punctuation
+//No semi colon at the end
+
+//functions are often declared at the begining of programs
+
+// to run a function do the following
+funcName();
+
+
+function alertRandom() {
+  var randomNumber = Math.floor( Math.random() * 6) +1;
+  alert(randomNumber);
+}
+alertRandom();
+alertRandom();
+alertRandom();
+
+// a function expresion is a function stored inside a variable
+var alertRandom = funtion () {
+var randomNumber = Math.floor( Math.random() * 6) +1;
+  alert(randomNumber);
+};
+alertRandom();
+*/
+
+
+/*The Conditional Challenge
+
+Quiz App
+- ask at least 5 questions
+- track number of correct answers
+- give user a message after quiz letting them know how many they got correct
+- rank the player 5 = gold 4-3 = silver 1-2 = bronze 0 = nothing
+*/
+
+
+/*Combining Multiple Tests Into a Single Condition
+
+&& "and" operator means both conditions must be true for it to be true
+example: if (agree === yes && agree === y)
+no limit to how many conditions can be used
+
+|| "or" operator means one of the conditions must be true for it to be true
+example: if (agree === yes || agree === y)
+no limit to how many conditions can be used
+*/
+
+/* Document Your Code With Comments
+
+/*
+it's common to add multi line comments at the begining of programs detailing what the program should do
+- contact info
+- copyright notice
+- any other relivant data
+
+BELOW IS AN EXAMPLE
+*/
+
+/*
+The Random Number Guessing Game
+Generates a number between 1 and 6
+and gives a player two attemps to
+guess a number
+*/
+
+/*
+// assume the player didn't guess correctly
+var correctGuess = false;
+
+// generate random number from 1 to 6
+var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+
+var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
+*/
+
+/*
+1. correct
+2. guessed too high
+3. guessed too low
+*/
+/*
+if (parseInt(guess) === randomNumber ) {
+ correctGuess = true;
+} else if ( parseInt(guess) < randomNumber ) {
+  var guessMore = prompt(guess + ' is too low, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
+} else if (parseInt(guess) > randomNumber ) {
+  var guessLess = prompt(guess + ' is too high, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
+}
+
+// test if player is corrct and output response
+if ( correctGuess ) {
+  document.write('<p>You quessed the number!</p>');
+} else {
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+}
+
+*/
 
 
 /*Improving the Random Number Guessing Game
