@@ -1,3 +1,22 @@
+/*Introducing Loops, Arrays and Objects*/
+
+
+
+
+/*Random Number Challenge, Part II
+
+// how to create error messages
+if ( || ) {
+    throw new Error('error message');
+}
+
+isNaN('string')
+// returns true
+isNaN(9)
+//returns false
+*/
+
+
 /*Random Number Challenge*/
 
 // change the random number program so it can
