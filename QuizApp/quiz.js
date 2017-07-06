@@ -24,6 +24,7 @@ Adds score and create's variables with responses
 based on correct or incorrect answers
 */
 var score = 0
+// could have done if ( input1.toUpperCase() === 'C') instead
 if ( input1 === 'c' || input1 === 'C' ) {
   score += 1;
   var question1 = 'Correct! The lightest element on the Periodic Table is Hydrogen.';
