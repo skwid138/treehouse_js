@@ -17,7 +17,6 @@ function userInput () {
 
   // checks if both numbers are ints
   // returns an error if they are not
-  // collects user input again
   if ( isNaN(input1) || isNaN(input2) ) {
     throw new Error('Please enter numbers only. i.e., 1,2,3...');
   }
