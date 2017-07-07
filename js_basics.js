@@ -1,6 +1,113 @@
-/*A Closer Look at Loop Conditions*/
+/*Exiting Loops
+
+var randomNumber = getRandomNumber (10);
+var guess;
+var guessCount = 0;
+var correctGuess = false;
+// this variable is often referred to as a flag
+
+function getRandomNumber( upper ) {
+  var num = Math.floor(Math.random() * upper ) +1;
+ return num;
+}
+
+while ( guessCount < 10 ) {
+   guess = prompt('I am thinking of a number between 1 and 10. What is it?')
+   guessCount += 1;
+  if (parseInt(guess) === randomNumber) {
+    correctGuess = true;
+    break;
+  }
+}
+
+if ( correctGuess ) {
+  document.write('<h1>You guessed the number!</h1>');
+  document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
+} else {
+ document.write('<h1>Sorry, you did not guess the number.</h1>');
+}
+*/
 
 
+
+/*For Loops
+
+// for loops are typically used when loops need to be ran a certin number of times
+// they are also used to interact with arrays
+
+var counter = 0:
+while (counter < 10) {
+ document.write( counter );
+  counter += 1;
+}
+
+// these loops accomplish the same thing
+
+for ( var counter = 0; counter < 10; counter +=1 ) {
+  document.write( counter );
+}
+// often the counter variable is 'i' or 'j' normally variables should be named something more descriptive, but because it is onoy being used as a counter this is common
+
+// creates html divs
+var html = '';
+
+for ( var i = 1; i <= 10; i += 1 ) {
+  html += '<div>' + i + '</div>';
+}
+document.write(html);
+*/
+
+
+/*`do ... while` Loops
+
+// do while loops will run at least once regardless of the condition
+// after that it runs just like a while loop
+
+do {
+
+} while( )
+
+
+var randomNumber = getRandomNumber (10);
+var guess;
+var guessCount = 0;
+var correctGuess = false;
+// this variable is often referred to as a flag
+
+function getRandomNumber( upper ) {
+  var num = Math.floor(Math.random() * upper ) +1;
+ return num;
+}
+
+do {
+   guess = prompt('I am thinking of a number between 1 and 10. What is it?')
+   guessCount += 1;
+  if (parseInt(guess) === randomNumber) {
+    correctGuess = true;
+  }
+} while ( ! correctGuess)
+  document.write('<h1>You guessed the number!</h1>');
+document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
+*/
+
+
+/*A Closer Look at Loop Conditions
+
+var upper = 10000
+var randomNumber = getRandomNumber (upper);
+var guess;
+var attempts = 0;
+
+function getRandomNumber( upper ) {
+ return Math.floor( Math.random() * upper ) +1;
+}
+
+while ( guess !== randomNumber ) {
+  guess = getRandomNumber( upper );
+  attempts += 1;
+}
+document.write("<p>It took the computer " + attempts + " attempts to guess the number correctly.</p>");
+*/
 
 
 /*What are Loops?
