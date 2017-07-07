@@ -1,6 +1,34 @@
+/*A Closer Look at Loop Conditions*/
+
+
+
+
+/*What are Loops?
+
+//while loops run over and over as long as the condition is true
+while ( ) {
+
+}
+// no semi colon at the end
+
+function randomNumber(upper) {
+  return Math.floor( Math.random() * upper ) + 1;
+}
+var counter = 0;
+while ( counter < 10 ) {
+  var randNum = randomNumber(6);
+  document.write(randNum + ' ');
+  counter += 1;
+}
+// as long as the counter variable is less then 10 it will run the loop
+*/
+
+
 /*Introducing Loops, Arrays and Objects*/
 
-
+// arrays allow you to store lists of information or lots of info
+// loops allow you to repeat actions
+// objects are a way to store info, and can be used to communicate with some types of databases
 
 
 /*Random Number Challenge, Part II
