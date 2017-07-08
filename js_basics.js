@@ -1,3 +1,93 @@
+/*Removing Items From Arrays*/
+
+
+
+
+/*Adding Data to Arrays
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+var list = ['a', 'b', 'c'] ;
+list.length
+// this should show 3?
+
+var numbers = [1, 2, 3, 4, 5, 6];
+numbers[ numbers.length ] = 7;
+// this adds the number 7 to the end of the array
+
+// this accomplishes the same thing
+numbers.push(7);
+
+numbers.push( 7, 8, 9 );
+// this would add 7, 8, and 9
+
+numbers.unshift( 0 );
+// this adds 0 to the front of the array
+
+numbers.unshift ( -1, 0);
+// this adds multiple items to the front of the array in the order listed
+
+var playList = [];
+playList.push('I Did It MY Way');
+playList.push('Respect', 'Imagine');
+playList.unshift('Born to be Wild');
+playList.unshift('Louie Lpouie', 'Venus');
+
+printList( playList );
+
+*/
+
+/*Accessing Items in an Array
+
+// items in an array can be accessed by using their index value, which starts at 0 and goes up
+
+var list = [ 3, 2, 1 ];
+alert( list[0] );
+// this would produce the number 3
+
+var shopping = [ 'milk', 'eggs', 'bread', 'butter' ];
+console.log( shopping[0] );
+console.log( shopping[1] );
+console.log( shopping[4] );
+*/
+
+
+/*What is an Array?
+
+//arrays are flexible and can hold any number of things which do not need to be defined beforehand
+
+// example, notice it uses brackets, unlike a regular varribale.
+// the array below has strings separated by commas
+
+var myShopping = [ 'carrots', 'milk', 'butter' ];
+
+// arrays can also be written over multiple lines like below
+var shoppingList = [
+  'carrots',
+  'milk',
+  'eggs'
+];
+*/
+
+
+/*The Refactor Challenge*/
+
+// reduce the code as much as possible "refactor"
+
+//DRY programming - Don't Repeat Yourself
+
+
+/* this for loop will run 6 times
+for (var i = 0; i <= 5; i += 1) {
+  console.log( i );
+}
+
+// this one will run 5 times
+for (var i = 0; i < 5; i += 1) {
+console.log( i );
+}
+*/
+
 /*Exiting Loops
 
 var randomNumber = getRandomNumber (10);
