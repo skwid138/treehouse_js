@@ -1,3 +1,18 @@
+/*Two-Dimensional Arrays*/
+
+// arrays can hold strings, numbers, and booleans
+// an array can also contain arrays
+// an array that only contains other arrays is called a two-dimensional array
+// it's easier to think of this like a spread sheet with rows and collums
+// the rows are the arrays and the collumns are items in the arrays
+
+
+var masterList = [
+  [80, 90, 100, 95],
+  [75, 95, 85, 100],
+  [60, 80, 77, 90]
+];
+
 /*Useful Array Methods
 
 var list [
