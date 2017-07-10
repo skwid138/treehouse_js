@@ -1,4 +1,22 @@
-/*Two-Dimensional Arrays*/
+/*Build a Quiz Challenge, Part 1
+
+// ask at least 3 questions
+// track questions answered correctly
+// display number of questions answered correctly
+// display questions that player got wrong
+
+// use a loop to cycle through each question and compare the response to the answer in the array
+// use prompt method to ask questions
+// use a conditional statment to see if the payers answer matches the real answer
+// 2 dimmensional array to hold questions and answer
+// each array in the 2d array should contain the question and answer
+
+*/
+
+
+
+
+/*Two-Dimensional Arrays
 
 // arrays can hold strings, numbers, and booleans
 // an array can also contain arrays
@@ -13,23 +31,26 @@ var masterList = [
   [60, 80, 77, 90]
 ];
 
+// updated code in playlists.js
+*/
+
 /*Useful Array Methods
 
 var list [
- one,
- two,
- three,
- four,
- five
+  one,
+  two,
+  three,
+  four,
+  five
 ]
 // this joins all five strings into one and adds a comma between each, but not after the last one
 var list2 = list.join( ', ' );
 
 var extraList = [
- six,
- seven,
- eight,
- nine
+  six,
+  seven,
+  eight,
+  nine
 ]
 
 // this combines the two lists and keeps the items as separate items it adds the items in the () to the end
@@ -47,7 +68,7 @@ var position = list.indexOf('three');
 // apple = 0 etc.
 var fruit = ['apple', 'peach', 'banana', 'grape'];
 for (var i =0; i < fruit.length; i += 1) {
-console.log(fruit[i]);
+ console.log(fruit[i]);
 }
 */
 
@@ -55,15 +76,15 @@ var inStock = [ 'apples', 'eggs', 'milk', 'cookies', 'cheese', 'bread', 'lettuce
 var search;
 
 function print( message ) {
-document.write( '<p> + message + '</p>');
+ document.write( '<p> + message + '</p>');
 }
 
 while (true) {
-search = prompt.toLowerCase("Search for a product in our store. Type 'list' to show all of the produce and 'quit' to exit");
-  if ( search === 'quit'.toLowerCase()) {
-    break;
-  }
-}
+ search = prompt.toLowerCase("Search for a product in our store. Type 'list' to show all of the produce and 'quit' to exit");
+   if ( search === 'quit'.toLowerCase()) {
+     break;
+   }
+ }
 
 /*Removing Items From Arrays
 
@@ -81,25 +102,25 @@ var firstItem = numbers.shift();
 
 //Updated the playlist.js file I had messed with earlier
 var playList = [
- 'I Did It My Way',
- 'Respect',
- 'Imagine',
- 'Born to Run',
- 'Louie Louie',
- 'Maybellene'
+  'I Did It My Way',
+  'Respect',
+  'Imagine',
+  'Born to Run',
+  'Louie Louie',
+  'Maybellene'
 ];
 
 function print(message) {
- document.write(message);
+  document.write(message);
 }
 
 function printList( list ) {
- var listHTML = '<ol>';
- for ( var i = 0; i < list.length; i += 1) {
-  listHTML += '<li>' + list[i] + '</li>';
- }
- listHTML += '</ol>';
- print(listHTML);
+  var listHTML = '<ol>';
+  for ( var i = 0; i < list.length; i += 1) {
+   listHTML += '<li>' + list[i] + '</li>';
+  }
+  listHTML += '</ol>';
+  print(listHTML);
 }
 printList(playList);
 */
@@ -165,9 +186,9 @@ var myShopping = [ 'carrots', 'milk', 'butter' ];
 
 // arrays can also be written over multiple lines like below
 var shoppingList = [
- 'carrots',
- 'milk',
- 'eggs'
+  'carrots',
+  'milk',
+  'eggs'
 ];
 */
 
@@ -181,7 +202,7 @@ var shoppingList = [
 
 /* this for loop will run 6 times
 for (var i = 0; i <= 5; i += 1) {
- console.log( i );
+  console.log( i );
 }
 
 // this one will run 5 times
@@ -199,24 +220,24 @@ var correctGuess = false;
 // this variable is often referred to as a flag
 
 function getRandomNumber( upper ) {
- var num = Math.floor(Math.random() * upper ) +1;
-return num;
+  var num = Math.floor(Math.random() * upper ) +1;
+ return num;
 }
 
 while ( guessCount < 10 ) {
-  guess = prompt('I am thinking of a number between 1 and 10. What is it?')
-  guessCount += 1;
- if (parseInt(guess) === randomNumber) {
-   correctGuess = true;
-   break;
- }
+   guess = prompt('I am thinking of a number between 1 and 10. What is it?')
+   guessCount += 1;
+  if (parseInt(guess) === randomNumber) {
+    correctGuess = true;
+    break;
+  }
 }
 
 if ( correctGuess ) {
- document.write('<h1>You guessed the number!</h1>');
- document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
+  document.write('<h1>You guessed the number!</h1>');
+  document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
 } else {
-document.write('<h1>Sorry, you did not guess the number.</h1>');
+ document.write('<h1>Sorry, you did not guess the number.</h1>');
 }
 */
 
@@ -229,14 +250,14 @@ document.write('<h1>Sorry, you did not guess the number.</h1>');
 
 var counter = 0:
 while (counter < 10) {
-document.write( counter );
- counter += 1;
+ document.write( counter );
+  counter += 1;
 }
 
 // these loops accomplish the same thing
 
 for ( var counter = 0; counter < 10; counter +=1 ) {
- document.write( counter );
+  document.write( counter );
 }
 // often the counter variable is 'i' or 'j' normally variables should be named something more descriptive, but because it is onoy being used as a counter this is common
 
@@ -244,7 +265,7 @@ for ( var counter = 0; counter < 10; counter +=1 ) {
 var html = '';
 
 for ( var i = 1; i <= 10; i += 1 ) {
- html += '<div>' + i + '</div>';
+  html += '<div>' + i + '</div>';
 }
 document.write(html);
 */
@@ -267,18 +288,18 @@ var correctGuess = false;
 // this variable is often referred to as a flag
 
 function getRandomNumber( upper ) {
- var num = Math.floor(Math.random() * upper ) +1;
-return num;
+  var num = Math.floor(Math.random() * upper ) +1;
+ return num;
 }
 
 do {
-  guess = prompt('I am thinking of a number between 1 and 10. What is it?')
-  guessCount += 1;
- if (parseInt(guess) === randomNumber) {
-   correctGuess = true;
- }
+   guess = prompt('I am thinking of a number between 1 and 10. What is it?')
+   guessCount += 1;
+  if (parseInt(guess) === randomNumber) {
+    correctGuess = true;
+  }
 } while ( ! correctGuess)
- document.write('<h1>You guessed the number!</h1>');
+  document.write('<h1>You guessed the number!</h1>');
 document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
 */
 
@@ -291,12 +312,12 @@ var guess;
 var attempts = 0;
 
 function getRandomNumber( upper ) {
-return Math.floor( Math.random() * upper ) +1;
+ return Math.floor( Math.random() * upper ) +1;
 }
 
 while ( guess !== randomNumber ) {
- guess = getRandomNumber( upper );
- attempts += 1;
+  guess = getRandomNumber( upper );
+  attempts += 1;
 }
 document.write("<p>It took the computer " + attempts + " attempts to guess the number correctly.</p>");
 */
@@ -311,13 +332,13 @@ while ( ) {
 // no semi colon at the end
 
 function randomNumber(upper) {
- return Math.floor( Math.random() * upper ) + 1;
+  return Math.floor( Math.random() * upper ) + 1;
 }
 var counter = 0;
 while ( counter < 10 ) {
- var randNum = randomNumber(6);
- document.write(randNum + ' ');
- counter += 1;
+  var randNum = randomNumber(6);
+  document.write(randNum + ' ');
+  counter += 1;
 }
 // as long as the counter variable is less then 10 it will run the loop
 */
@@ -334,7 +355,7 @@ while ( counter < 10 ) {
 
 // how to create error messages
 if ( || ) {
-   throw new Error('error message');
+    throw new Error('error message');
 }
 
 isNaN('string')
@@ -368,8 +389,8 @@ isNaN(9)
 // naming a parameter has the same rules as naming a function
 
 function getRandomNumber( upper ) {
- var randomNumber = Math.floor( Math.random() * upper) +1;
- return randomNumber;
+  var randomNumber = Math.floor( Math.random() * upper) +1;
+  return randomNumber;
 }
 
 console.log( getRandomNumber(6) );
@@ -378,8 +399,8 @@ console.log( getRandomNumber(1138) );
 
 
 function getArea(width, length, unit) {
-var area = width * length;
-return area + " " + unit;
+ var area = width * length;
+ return area + " " + unit;
 }
 console.log(getArea(10, 20, 'sq ft'));
 
@@ -394,25 +415,25 @@ console.log(getArea(10, 20, 'sq ft'));
 /*Getting Information From a Function
 
 function getRandomNumber() {
- var randomNumber = Math.floor( Math.random() * 6) +1;
- return randomNumber;
+  var randomNumber = Math.floor( Math.random() * 6) +1;
+  return randomNumber;
 }
 getRandomNumber();getRandomNumber
 
 
 // example of how to use return below
 function isEmailEmpty () {
-var field = document.getElemebtByID('email');
-if (field.value === '') {
- return true;
-} else {
-  return false;
-}
+ var field = document.getElemebtByID('email');
+ if (field.value === '') {
+  return true;
+ } else {
+   return false;
+ }
 }
 
 var fieldTest = isEmailEmpty();
 if (fieldTest === true) {
-alert('Please provide your email address.');
+ alert('Please provide your email address.');
 }
 
 //return can only return a single value and if it is used in the middle of a funtion the code below it will not be run when the function is called
@@ -445,8 +466,8 @@ funcName();
 
 
 function alertRandom() {
- var randomNumber = Math.floor( Math.random() * 6) +1;
- alert(randomNumber);
+  var randomNumber = Math.floor( Math.random() * 6) +1;
+  alert(randomNumber);
 }
 alertRandom();
 alertRandom();
@@ -455,7 +476,7 @@ alertRandom();
 // a function expresion is a function stored inside a variable
 var alertRandom = funtion () {
 var randomNumber = Math.floor( Math.random() * 6) +1;
- alert(randomNumber);
+  alert(randomNumber);
 };
 alertRandom();
 */
@@ -517,24 +538,24 @@ var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
 */
 /*
 if (parseInt(guess) === randomNumber ) {
-correctGuess = true;
+ correctGuess = true;
 } else if ( parseInt(guess) < randomNumber ) {
- var guessMore = prompt(guess + ' is too low, try again!');
- if (parseInt(guessMore) === randomNumber) {
-  correctGuess = true;
- }
+  var guessMore = prompt(guess + ' is too low, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
 } else if (parseInt(guess) > randomNumber ) {
- var guessLess = prompt(guess + ' is too high, try again!');
- if (parseInt(guessMore) === randomNumber) {
-  correctGuess = true;
- }
+  var guessLess = prompt(guess + ' is too high, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
 }
 
 // test if player is corrct and output response
 if ( correctGuess ) {
- document.write('<p>You quessed the number!</p>');
+  document.write('<p>You quessed the number!</p>');
 } else {
- document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
 }
 
 */
@@ -546,22 +567,22 @@ var correctGuess = false;
 var randomNumber = Math.floor(Math.random() * 6 ) + 1;
 var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
 if (parseInt(guess) === randomNumber ) {
-correctGuess = true;
+ correctGuess = true;
 } else if ( parseInt(guess) < randomNumber ) {
- var guessMore = prompt(guess + ' is too low, try again!');
- if (parseInt(guessMore) === randomNumber) {
-  correctGuess = true;
- }
+  var guessMore = prompt(guess + ' is too low, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
 } else if (parseInt(guess) > randomNumber ) {
- var guessLess = prompt(guess + ' is too high, try again!');
- if (parseInt(guessMore) === randomNumber) {
-  correctGuess = true;
- }
+  var guessLess = prompt(guess + ' is too high, try again!');
+  if (parseInt(guessMore) === randomNumber) {
+   correctGuess = true;
+  }
 }
 if ( correctGuess ) {
- document.write('<p>You quessed the number!</p>');
+  document.write('<p>You quessed the number!</p>');
 } else {
- document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
 }
 */
 
@@ -586,21 +607,21 @@ if () {
 /*Boolean Values
 
 if ( true ) {
- document.write('The condition is true.');
+  document.write('The condition is true.');
 } else {
- document.write('The condition is false.');
+  document.write('The condition is false.');
 }
 
 var correctGuess = false;
 var randomNumber = Math.floor(Math.random() * 6 ) + 1;
 var guess = prmpt('I am thinking of a number between 1 and 6. What is it?');
 if (parseInt(guess) === randomNumber ) {
-correctGuess = true;
+ correctGuess = true;
 }
 if ( correctGuess ) {
- document.write('<p>You quessed the number!</p>);
+  document.write('<p>You quessed the number!</p>);
 } else {
- document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
+  document.write('<p>Sorry. The number was ' + randomNumber +'</p>');
 }
 */
 
@@ -609,9 +630,9 @@ if ( correctGuess ) {
 var randomNumber = Math.floor(Math.random() * 6 ) + 1;
 var guess = prmpt('I am thinking of a number between 1 and 6. What is it?');
 if (parseInt(guess) === randomNumber ) {
-document.write('<p>You guessed the number!</p>);
+ document.write('<p>You guessed the number!</p>);
 } else {
- document.write('<p>Sorry. The number was ' +randomNumber + '</p>');
+  document.write('<p>Sorry. The number was ' +randomNumber + '</p>');
 }
 */
 
@@ -620,9 +641,9 @@ document.write('<p>You guessed the number!</p>);
 
 var answer = prompt('What programming language is the name of a gem?');
 if ( answer.toUpperCase() === 'RUBY' ) {
- document.write("<p>That's right!</p>");
+  document.write("<p>That's right!</p>");
 } else {
- document.write("<p>Sorry, that's wrong.</p>");
+  document.write("<p>Sorry, that's wrong.</p>");
 }
 
 // example if (condition) {code to run if the condition is true}
@@ -824,7 +845,7 @@ alert(message);
 //the following seems to be a best practice, I'm assuming so other devs can see what you're doing and probably helps with debugging even for the original engineer
 
 console.log("Start program.";
-<js here>
+ <js here>
 console.log("End program.");
 */
 
