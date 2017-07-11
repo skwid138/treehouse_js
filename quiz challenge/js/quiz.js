@@ -7,7 +7,8 @@ Shows user the correct answers, score
 
 // prints to screen
 function print(message) {
-  document.write(message);
+  var outputDiv = document.getElementById('output');
+  outputDiv.innerHTML = message;
 }
 
 // writes the html to list out the questions, user's answers, correct asnwers and score
@@ -40,7 +41,7 @@ var questions = [
   ['Red light has a longer wave length then violet light.' , 't'  , ''],
   ['The Opportunity rover on Mars has driven over 50 miles.' , 'f' , '<br>As of January 2017 Opportunity has driven just over 27 miles.'],
   ['During the last ice age CO2 levels in the atmosphere were around 200ppm (parts per million). March of 2017 the CO2 levels in the atmosphere surpassed 400ppm for the first time in at least 400,000 years.' , 't' , '']
-]
+];
 
 alert("The following are True or False questions, please enter 't' for true or 'f' false.");
 
