@@ -1,6 +1,38 @@
-/**/
+/*Accessing Object Properties
+
+// an object can be a property of another object
+
+// there are two ways to access a value inside an object
+// using the below example
+
+// alert( person['name']); -- similar to an array except
+
+// instead of the index the properties name is used as a string
+// the easier and more common way is as follows
+
+// alert( person.name); -- this is called dot notation
+// it does not require brackets or quotes
+// object_name.property_name
+
+var person = {
+  name : 'Hunter',
+  country : 'US',
+  age : 25,
+  treehouseStudent : true,
+  skills : ['JavaScript', 'HTML', 'CSS']
+};
+
+// properties values can be updated using this method as well
+
+person.name = 'Banjo';
+
+// you can also add properies this way
+
+person.state = 'MN';
 
 
+// think of properties like a collection of variables contained inside an object
+*/
 
 
 /*The Object Literal
