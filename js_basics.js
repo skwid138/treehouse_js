@@ -1,3 +1,47 @@
+/**/
+
+
+
+
+/*The Object Literal
+
+// objects have properties and methods
+// a property is like a variable that belongs to the object
+// a method is something the object can do or something that can be done to an object
+
+// var name =;  -- this creates a variable
+// var name = [];  -- this creates an array
+// var name = {};  -- this creates an object
+
+// the example below name is the 'property name' or 'key'
+// it is followed by a collon and a value
+// the value must be a string, number, boolean, or an array
+
+// the property nam / key is similar to a variable
+// the naming rules for variables apply to it
+
+// keys should have a ',' following each similar to an array
+
+// spaces and charage returns are optional
+// var object = {name:"Hunter",code:['HTML', 'CSS', 'JavaScript']};
+
+var object = {
+  name: "Hunter",
+  code: ['HTML', 'CSS', 'JavaScript']
+};
+*/
+
+
+/*Build a Quiz Challenge, Part 2*/
+
+// not many devs use document.write now
+// DOM - document object model
+
+//using the dom you can dynamically access elements in the html document
+
+// document.getElementByID('ID NAME of HTML TAG'):
+
+
 /*Build a Quiz Challenge, Part 1
 
 // ask at least 3 questions
