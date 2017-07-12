@@ -1,3 +1,37 @@
+/*Mixing and Matching Arrays and Objects*/
+
+
+
+
+/*Using `for in` to Loop Through an Object's Properties*/
+
+// a for in loop is only able to be used with objects
+
+var person = {
+  name : 'Hunter',
+  country : 'US',
+  age : 25,
+  treehouseStudent : true,
+  skills : ['JavaScript', 'HTML', 'CSS']
+};
+for ( var key in person) {
+  // do something
+}
+
+// key can be named anything
+
+// if you want access to the values in each key you can use []
+// dot notation will not work
+for ( var key in person) {
+  console.log(person[key]);
+}
+
+// this will print out the name of the key and it's value with a ': " between them
+for ( prop in person) {
+console.log(prop, ': ', person[prop]);
+}
+
+
 /*Accessing Object Properties
 
 // an object can be a property of another object
