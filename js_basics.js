@@ -1,9 +1,11 @@
 /*Mixing and Matching Arrays and Objects*/
 
+// it's very common to make arrays of objects
+// I will update my quiz challenge app so the 2d array is an array with objects
+// changing from a 2D array to an array with objects has made the code far easier to read through... for a human
 
 
-
-/*Using `for in` to Loop Through an Object's Properties*/
+/*Using `for in` to Loop Through an Object's Properties
 
 // a for in loop is only able to be used with objects
 
@@ -30,6 +32,7 @@ for ( var key in person) {
 for ( prop in person) {
 console.log(prop, ': ', person[prop]);
 }
+*/
 
 
 /*Accessing Object Properties
