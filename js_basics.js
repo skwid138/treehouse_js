@@ -1,3 +1,11 @@
+/*The Student Record Search Challenge
+
+use a a loop and prompt
+- that asks for the student name
+- searches the records
+- displays a match
+- if you type quit exits the loop and the dialog box
+
 /*The Build an Object Challenge, Part 1*/
 
 // create a script that creates a bunch of student records and then prints them to a webpage
@@ -5,7 +13,6 @@
 // create a data structure to hold info about students
 // this should be an array named students
 // the array will hold a list of objects
-
 
 // each object should have the following properties
 // name, track(ios, web design, front end dev, etc.), achievments (# value), and points
