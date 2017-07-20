@@ -5,7 +5,7 @@ function print(message) {
 }
 
  while (true) {
-  var name = prompt("To search for a student's records, please enter the students name. Once finished type 'quit' to exit").toLowerCase();
+  var name = prompt("To search for a student's records, please enter the students name. You can enter as many as you'd like once finished type 'quit' to exit and see the records.").toLowerCase();
   if ( name === 'quit' || name === null ) {
     break;
   } else {
