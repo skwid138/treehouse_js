@@ -1,3 +1,10 @@
+/*The Student Record Search Challenge Solution*/
+
+// - add something to catch names that are not in the array
+// - add something to handle multiple students with the same name
+// - creat a function to handle writting the html rather then relying on the loop
+
+
 /*The Student Record Search Challenge
 
 use a a loop and prompt
