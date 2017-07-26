@@ -14,6 +14,6 @@ function print(message) {
           var html = "<h2> Student Name: " + students[i].name + '</h2> <br><p>Track: ' + students[i].track + '<br>Achievments: ' + students[i].acheivments + '<br>Points ' + students[i].points + '</p>'  ;
           print(html);
         }
-      };
-  };
-};
+      }
+  }
+}
