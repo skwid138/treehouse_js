@@ -1,31 +1,31 @@
 // student records
 var students = [
   {
-    name : 'Hunter',
+    name : 'hunter',
     track : 'Full Stack Development',
     acheivments : ['JS Basics', 'HTML Basics', 'CSS Basics'],
     points : 2892
   },
   {
-    name : 'Becky',
+    name : 'becky',
     track : 'SQL',
     acheivments : ['Smart', 'Beutiful', 'Driven'],
     points : 5000000000
   },
   {
-    name : 'Nebuchadnezzar',
+    name : 'nebuchadnezzar',
     track : 'Sleep City',
     acheivments : ['Big', 'Hairy', 'Audacious'],
     points : 138
   },
   {
-    name : 'Banjo',
+    name : 'banjo',
     track : 'Lord of Dogtown',
     acheivments : ["Wiggle Butt", "Lick Face", "Fast hole digger of 2017"],
     points : 31
   },
   {
-    name : 'Princess Lola',
+    name : 'princess lola',
     track : 'Barkocolyps',
     acheivments : ['Dance of Dog', 'Belly Rub Champion', 'SBA Award 2014, 2015, 2016, 2017'],
     points : 86
