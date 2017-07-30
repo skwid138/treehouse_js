@@ -28,9 +28,10 @@ function reportBuilder(student) {
     if ( student.name === search ) {
       message = reportBuilder(student);
       print(message);
-    } else {
-      search = prompt("That student isn't in our records, please enter a different student name.");
-    }
+      break;
+    } //else {
+      //search = prompt("That student isn't in our records, please enter a //different student name.");
+    //}
 
   }
 }

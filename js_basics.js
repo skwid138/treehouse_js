@@ -1,3 +1,16 @@
+
+
+
+/*Declaring Variables in JavaScript
+
+var message = 'hello';
+const pi = 3.14159;
+let score = 0;
+
+//const and let are similar to var
+*/
+
+
 /*The Student Record Search Challenge Solution*/
 
 // - add something to catch names that are not in the array
