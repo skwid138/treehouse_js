@@ -1,3 +1,32 @@
+/*Basic Arrow Syntax*/
+
+//a function declarion is different than a function Expression
+
+function one() {
+  //declarion
+  return;
+}
+var two = function() {
+  //expression
+  return;
+};
+
+const three = function() {
+  //expression
+  return;
+};
+
+const four = () => {
+  // arrow Function
+  return;
+};
+
+// an arrow function is called such because instead of the word function it uses an arrow '=>' like above
+// no matter how the function is created it is still called the same way
+
+
+
+
 /*Overview*/
 
 // const
