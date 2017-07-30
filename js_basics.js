@@ -1,4 +1,41 @@
+/*Overview*/
 
+// const
+// - should be the 1st option used
+// - use for values you never want reassigned
+// - block level scope (anything between {})
+//
+// let
+// - when you want to reassign values
+// - use with loops or when adding strings
+//
+// var
+// - not recomended anymore
+
+/*Using let with for Loops*/
+
+// for(let i = 0; i < buttons.length; i++)
+//this allows each time through the loop to set i as 0 again rather then showing it's value as  GLOBAL Variable
+
+// in let.html the button number returns as 10 instead of the button number because using var instead of let makes the i variable global
+
+
+/*Defining a Variable with let*/
+
+// let is similr to var, but it has block level scoping
+
+
+/*Using Constants with Arrays and Objects*/
+
+//const does not stop arrays or objects from being changed, but does stop them from being overwritten entirely.
+
+// I can add things to an array or object, but cannot recreate an array or object with the same name
+
+
+/*Creating Unchanging Variables With const*/
+
+//Const is used when the variable should not be changed while a program is run
+// using Const effects scope. If const is used globally and that variable is used in a function const must also be used in the function or you'll get errors
 
 
 /*Declaring Variables in JavaScript
