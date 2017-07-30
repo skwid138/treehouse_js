@@ -1,7 +1,18 @@
+/*What is the DOM?*/
+
+//DOM stands for Document Object Model. The DOM is a representation of a webpage that JavaScript can use. Changes that JavaScript makes to the DOM alter the web page.
+
+//The DOM is similar to  city map that helps you navigate a city, the DOM is map of a webpage, but it can be changed dynamically
+
+
 /*Interpolation*/
 
 // interpolation is a way to inbed values into strings without needing
 // to concatinate the string
+// `Here is a string and I can interpolate like ${valueName}.`
+
+// you can also do math inside as well
+// `two multiplied by two is ${2 *2}.`
 
 
 /*Basic and Multiple Line Strings*/
