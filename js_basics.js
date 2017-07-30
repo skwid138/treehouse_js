@@ -1,4 +1,23 @@
-/*Basic Arrow Syntax*/
+/*Interpolation*/
+
+// interpolation is a way to inbed values into strings without needing
+// to concatinate the string
+
+
+/*Basic and Multiple Line Strings*/
+
+// 'This is a string'
+// "This is a string"
+// `This is a string`
+//all of these evaluate to the same thing
+
+// Looking at the multiline.js file in the template literal folder you
+// can see that using the + to create line breaks is no longer needed
+// as well as using quotes on each line, it makes al the code much
+// more clean
+
+
+/*Basic Arrow Syntax
 
 //a function declarion is different than a function Expression
 
@@ -33,8 +52,7 @@ const four = () => {
 // if you only have a single line of code you can also remove the {}
 
 // I updated all the files for the track to show what they should look like
-
-
+*/
 
 
 /*Overview*/

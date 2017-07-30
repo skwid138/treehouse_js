@@ -5,4 +5,13 @@ const fruitList =
     "<li>Pineapple</li>" +
   "</ul>";
 
-//document.querySelector('.fruits').innerHTML = fruitList;
+  const vegList = `
+    <ul>
+      <li>Onion</li>
+      <li>Tomato</li>
+      <li>Carrot</li>
+    </ul>
+  `;
+
+document.querySelector('.fruits').innerHTML = fruitList;
+document.querySelector('.vegetables').innerHTML = vegList;
