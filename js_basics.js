@@ -24,6 +24,16 @@ const four = () => {
 // an arrow function is called such because instead of the word function it uses an arrow '=>' like above
 // no matter how the function is created it is still called the same way
 
+// if the function only has one parameter or argument then it does not need parentheses
+
+//but if it has 0 or multiple then it needs  ()
+
+// you also do not need to use a return as it will do this already
+
+// if you only have a single line of code you can also remove the {}
+
+// I updated all the files for the track to show what they should look like
+
 
 
 
