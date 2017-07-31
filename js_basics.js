@@ -1,4 +1,7 @@
-/*Select All Elements of a Particular Type*/
+/*Using CSS Queries to Select Page Elements*/
+
+
+/*Select All Elements of a Particular Type
 
 // this is used to select one thing by it's ID
 document.getElementById('id')
@@ -7,7 +10,7 @@ document.getElementById('id')
 document.getElementsByTagName('p');
 
 // you can access these items the same way you would access items in an array
-
+*/
 
 
 /*What is the DOM?*/
