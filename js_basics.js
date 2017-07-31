@@ -1,3 +1,15 @@
+/*Select All Elements of a Particular Type*/
+
+// this is used to select one thing by it's ID
+document.getElementById('id')
+
+//this is used to select many items, similr to an array of items
+document.getElementsByTagName('p');
+
+// you can access these items the same way you would access items in an array
+
+
+
 /*What is the DOM?*/
 
 //DOM stands for Document Object Model. The DOM is a representation of a webpage that JavaScript can use. Changes that JavaScript makes to the DOM alter the web page.
